@@ -12,17 +12,17 @@ ms.openlocfilehash: 0d9c68f887edd33d91c894a3caa47e37132dcd5c
 ms.sourcegitcommit: 7335c82f5336142f6bb802210d8c7e2736a4c022
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 04/23/2020
 ms.locfileid: "6613566"
 ---
-# <a name="specifiedpickupdirectory-element-network-settings"></a>\<設定の候補ディレクトリ> 要素 (ネットワーク設定)
+# <a name="specifiedpickupdirectory-element-network-settings"></a>\<specifiedPickupDirectory>要素 (ネットワーク設定)
 簡易メール転送プロトコル (SMTP) サーバーのローカルディレクトリを構成します。  
   
-[**\<構成>**](../configuration-element.md)\
+[**\<configuration>**](../configuration-element.md)\
 &nbsp;&nbsp;[**\<system.net>**](system-net-element-network-settings.md)\
 &nbsp;&nbsp;&nbsp;&nbsp;[**\<mailSettings>**](mailsettings-element-network-settings.md)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**\<smtp>**](smtp-element-network-settings.md)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<>の候補ディレクトリの**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<specifiedPickupDirectory>**  
   
 ## <a name="syntax"></a>引数  
   
@@ -48,7 +48,7 @@ ms.locfileid: "6613566"
   
 |オブジェクト|説明|  
 |-------------|-----------------|  
-|[\<smtp> 要素 (ネットワーク設定)](smtp-element-network-settings.md)|簡易メール転送プロトコル (SMTP) のメール送信オプションを構成します。|  
+|[\<smtp>要素 (ネットワーク設定)](smtp-element-network-settings.md)|簡易メール転送プロトコル (SMTP) のメール送信オプションを構成します。|  
   
 ## <a name="remarks"></a>終わり  
  この`specifiedPickupDirectory`属性は、SMTP サーバーによって処理されるメールメッセージをアプリケーションが保存するディレクトリを設定します。  
