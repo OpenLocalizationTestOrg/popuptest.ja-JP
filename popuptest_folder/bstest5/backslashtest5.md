@@ -8,21 +8,22 @@ helpviewer_keywords:
 - specifiedPickupDirectory element
 - <specifiedPickupDirectory> element
 ms.assetid: 0121f49d-bff2-4bc6-af06-f1628dcd61f1
-ms.openlocfilehash: 0d9c68f887edd33d91c894a3caa47e37132dcd5c
-ms.sourcegitcommit: b34d601500eef39f5414bbd2d31794f71d1126ef
-ms.translationtype: MT
+ms.openlocfilehash: 25b06619a91e43d54b92c1e2cc50b433ccf864bc
+ms.sourcegitcommit: e25a89331cdb027dcfc845e774571df86e62dcb2
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "6613566"
+ms.lasthandoff: 06/28/2020
+ms.locfileid: "6614896"
 ---
-# <a name="specifiedpickupdirectory-element-network-settings"></a>\<設定の候補ディレクトリ> 要素 (ネットワーク設定)
+# <a name="update-test-on-june-23"></a>更新テスト (6 月23日)
+  
+# <a name="specifiedpickupdirectory-element-network-settings"></a>\<specifiedPickupDirectory>要素 (ネットワーク設定)
 簡易メール転送プロトコル (SMTP) サーバーのローカルディレクトリを構成します。  
   
-[**\<構成>**](../configuration-element.md)\
+[**\<configuration>**](../configuration-element.md)\
 &nbsp;&nbsp;[**\<system.net>**](system-net-element-network-settings.md)\
 &nbsp;&nbsp;&nbsp;&nbsp;[**\<mailSettings>**](mailsettings-element-network-settings.md)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**\<smtp>**](smtp-element-network-settings.md)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<>の候補ディレクトリの**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<specifiedPickupDirectory>**  
   
 ## <a name="syntax"></a>引数  
   
@@ -48,7 +49,7 @@ ms.locfileid: "6613566"
   
 |オブジェクト|説明|  
 |-------------|-----------------|  
-|[\<smtp> 要素 (ネットワーク設定)](smtp-element-network-settings.md)|簡易メール転送プロトコル (SMTP) のメール送信オプションを構成します。|  
+|[\<smtp>要素 (ネットワーク設定)](smtp-element-network-settings.md)|簡易メール転送プロトコル (SMTP) のメール送信オプションを構成します。|  
   
 ## <a name="remarks"></a>終わり  
  この `specifiedPickupDirectory` 属性は、SMTP サーバーによって処理されるメールメッセージをアプリケーションが保存するディレクトリを設定します。  
